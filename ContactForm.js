@@ -48,9 +48,7 @@ class ContactForm extends React.Component {
     
     /* Deklarasikan variable contentErrorText */
     let contentErrorText;
-    
       /* Buat statement if dengan hasContentError sebagai kondisi */
-    
     if (this.state.hasContentError){
       contentErrorText = (
         <p className='contact-message-error'>
@@ -58,8 +56,6 @@ class ContactForm extends React.Component {
         </p>
         )
     }
-    
-  
     
     let contactForm;
     if (this.state.isSubmitted) {
